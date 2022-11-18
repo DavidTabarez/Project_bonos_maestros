@@ -16,10 +16,22 @@ public class Bonus_maestro {
 		System.out.println("De cuanto es tu salario: ");
 		salario = entrada.nextDouble();
 		
-		if (condition) {
+		if (puntos >0 && puntos < 100) {
+			bonus = (salario + salario_minimo);
+			System.out.println("1");
+				
+		} else if (puntos >= 101 && puntos <= 150) {
+			bonus = ((2 * salario_minimo) + salario); 
+			System.out.println("2");
+				
+		} else {
+			bonus = ((3 * salario_minimo) + salario); 
+			System.out.println("3");
 			
-		}
+		} // fin del if else
 		
+		System.out.println("Los puntos optenidos fueron: " + puntos);
+		System.out.println("Tu bonus es de: " + bonus);
 
 	}
 
