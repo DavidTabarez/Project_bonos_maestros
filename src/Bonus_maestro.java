@@ -11,6 +11,14 @@ public class Bonus_maestro {
 		double puntos = 0;
 		
 		System.out.println("Ingrese los puntos optenidos: ");
+		puntos = entrada.nextDouble();
+		
+		System.out.println("De cuanto es tu salario: ");
+		salario = entrada.nextDouble();
+		
+		if (condition) {
+			
+		}
 		
 
 	}
